@@ -38,6 +38,7 @@ End Code
         </td>
         <td>
             @Html.DisplayFor(Function(modelItem) item.FechaInicio)
+
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", New With {.id = item.ID }) |
