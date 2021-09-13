@@ -7,8 +7,6 @@ Public Enum cursos
     ASIR
 End Enum
 Public Class Estudiante
-    <DataKeyProperty(ID)>
-    <DatabaseGenerated(DatabaseGeneratedOption.Identity)>
     Public Property ID As Integer
     Public Property Nombre As String
     Public Property Apellido As String
